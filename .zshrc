@@ -54,9 +54,10 @@ ZSH_THEME_HG_PROMPT_CLEAN="%{$fg[magenta]%})"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git mercurial)
+plugins=(git mercurial mysql-colorize jsontools)
 
 source $ZSH/oh-my-zsh.sh
+source ~/antigen.zsh
 
 # export LANG=en_US.UTF-8
 
